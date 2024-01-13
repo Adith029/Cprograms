@@ -1,0 +1,1 @@
+int search(int arr[], int n, int high, int low, int key);

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char ch[7] = "HELLO";
+    char ch2[12] = "WORLD ";  // Increased size to accommodate both strings and null terminator
+    strcat(ch2, ch);  
+    printf("%s\n", ch2);
+
+    return 0;
+}
